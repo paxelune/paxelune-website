@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d27"><meta name="description" content="PAXELUNE creates simple, useful Android applications. Discover PAXELUNE LIFE, your personal life management workspace.">
+<meta property="og:title" content="PAXELUNE — Building Apps for Everyday Life"><meta property="og:description" content="Discover PAXELUNE LIFE, your personal life management workspace."><meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.png"><link rel="stylesheet" href="css/style.css"><title>Delete Account & Data — PAXELUNE LIFE</title></head><body><div class="top-glow"></div>
+
+<header class="navbar"><div class="container nav-inner">
+<a class="brand" href="index.html"><img src="assets/logo-paxelune.png" alt="PAXELUNE logo"><span>PAXELUNE<small>Android App Studio</small></span></a>
+<button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+<nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="index.html#life">PAXELUNE LIFE</a><a href="support.html">Support</a><a href="privacy-policy.html">Privacy Policy</a></nav>
+<a class="nav-cta" data-play-store href="#coming-soon">↓ Get the App</a>
+</div></header>
+
+<main><section class="page-hero"><div class="container"><div class="kicker">PAXELUNE LIFE · DATA CONTROL</div><h1>Delete Account <span class="gradient-text">&amp; Data</span></h1><p>Use this page to learn how to request deletion of your PAXELUNE LIFE account and associated data.</p></div></section>
+<section class="content-wrap"><div class="container" style="max-width:850px">
+<div class="content-card"><h2>Option 1 — Delete from the app</h2><p>If you can still access PAXELUNE LIFE, open the app's Privacy settings and use the <strong>Delete Account &amp; Data</strong> action. The in-app feature is described as deleting local device records and synchronized Firebase Cloud Firestore records.</p></div>
+<div class="content-card"><h2>Option 2 — Request deletion by email</h2><p>If you have uninstalled the app or cannot access it, send a deletion request to our support address. You do not need to reinstall the application to contact us.</p>
+<form id="deletion-form">
+<div class="form-row"><label for="account-email">Email address associated with your account</label><input id="account-email" type="email" required autocomplete="email" placeholder="you@example.com"></div>
+<div class="form-row"><label for="account-details">Additional account identification (optional)</label><textarea id="account-details" placeholder="Add any details that can help us identify your account. Do not include your password."></textarea></div>
+<div class="form-row"><label style="display:flex;gap:10px;align-items:flex-start;font-weight:500"><input id="confirm-request" type="checkbox" required style="width:auto;margin-top:4px"> I confirm that I am requesting deletion of my PAXELUNE LIFE account and associated data.</label></div>
+<button class="btn btn-primary" type="submit">Prepare deletion request email →</button>
+<p class="form-help" id="request-status" aria-live="polite">This opens your email application with a pre-filled request. The request is not submitted until you send the email.</p>
+</form></div>
+<div class="content-card"><h2>What happens next?</h2><ul><li>We may need to verify account ownership before processing a request.</li><li>After verification, the developer must process deletion of applicable account and associated cloud data using the production deletion workflow.</li><li>Any data retained for a legitimate legal or security reason must be explained to the user.</li></ul><div class="notice">Developer setup required: this static GitHub Pages form only prepares an email. It does not automatically delete accounts or Firebase records. Before publishing this URL in Google Play Console, ensure that support can receive, verify, and fulfill deletion requests and that the process is documented accurately.</div><p>Direct contact: <a class="email-link" href="mailto:paxelune@gmail.com?subject=PAXELUNE%20LIFE%20Account%20Deletion%20Request">paxelune@gmail.com</a></p></div>
+</div></section></main>
+
+<footer class="footer"><div class="container"><div class="footer-top">
+<div class="footer-brand"><a class="brand" href="index.html"><img src="assets/logo-paxelune.png" alt="PAXELUNE logo"><span>PAXELUNE<small>Building Apps for Everyday Life.</small></span></a><p>Simple, useful Android experiences for everyday life. Discover our first product, PAXELUNE LIFE.</p></div>
+<div class="footer-links"><a href="index.html">Home</a><a href="index.html#life">PAXELUNE LIFE</a><a href="support.html">Support</a><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="delete-account.html">Delete Account &amp; Data</a><a href="mailto:paxelune@gmail.com">Contact</a></div>
+</div><div class="copyright"><span>© 2026 PAXELUNE. All Rights Reserved.</span><span>Support: <a class="email-link" href="mailto:paxelune@gmail.com">paxelune@gmail.com</a></span></div></div></footer>
+<script src="js/main.js"></script></body></html>
